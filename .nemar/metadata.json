@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "NeuroTechs Dataset for Stem Skills",
-  "description": "The NeuroTechs Dataset for Stem Skills is an EEG neuroimaging dataset designed to investigate neural correlates of science, technology, engineering, and mathematics (STEM) skill acquisition and performance. The dataset contains electroencephalographic recordings from multiple participants and is formatted according to the Brain Imaging Data Structure (BIDS) standard, enabling standardized analysis and integration with other neuroimaging studies. This dataset is derived from the OpenNeuro source dataset (doi:10.18112/openneuro.ds006803.v1.1.1).",
+  "description": "The NeuroTechs Dataset for Stem Skills is an EEG neuroimaging dataset designed to investigate neural correlates of science, technology, engineering, and mathematics (STEM) skill acquisition and performance. The dataset contains electroencephalographic recordings from participants and is formatted according to the Brain Imaging Data Structure (BIDS) standard, facilitating standardized analysis and reproducibility in cognitive neuroscience research.",
   "methods_description": "EEG data were recorded using a Unicorn Hybrid Black amplifier and acquired via the Unicorn API for Python. Raw signals were transformed to microvolts for standardization. Data were formatted according to the Brain Imaging Data Structure (BIDS) standard (version 1.8.0) using EEG-BIDS (version 10.3). Hierarchical Event Descriptors (HED) version 8.1.0 were applied for event annotation.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -16,28 +16,31 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "EEG",
+      "subject_scheme": "MeSH"
     },
     {
       "term": "STEM education"
     },
     {
-      "term": "skill learning"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "neuroscience"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "skill acquisition"
     },
     {
       "term": "cognitive neuroscience"
     },
     {
-      "term": "BIDS"
+      "term": "brain imaging"
+    },
+    {
+      "term": "electroencephalography",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "learning",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "neural correlates"
     }
   ],
   "related_identifiers": [
