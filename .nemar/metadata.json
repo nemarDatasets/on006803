@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006803",
+  "source": "openneuro",
+  "source_id": "ds006803",
+  "title": "NeuroTechs Dataset for Stem Skills",
+  "authors": {
+    "Tania Yareni Pech-Canul": {},
+    "Roberto Guajardo": {},
+    "Luis Fernando Acosta-Soto": {},
+    "Mónica Sofía Margoya-Constantino": {},
+    "Juan Pablo Rosado-Aíza": {},
+    "Luz María Alonso-Valerdi": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006803.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
